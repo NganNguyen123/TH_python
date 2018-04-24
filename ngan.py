@@ -1,0 +1,1 @@
+print ('Ngan cho')
