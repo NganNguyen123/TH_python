@@ -1,4 +1,7 @@
 class Sinhvien:
+	Ten=""
+	Namsinh=""
+	Khoa=""
 	def __init__(self,Ten,Namsinh,Khoa):
 		self.Ten=Ten
 		self.Namsinh=Namsinh
