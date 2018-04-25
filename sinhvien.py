@@ -1,4 +1,4 @@
-class Sinhvien:
+class SinhVien:
 	Ten=""
 	Namsinh=""
 	Khoa=""
@@ -13,10 +13,9 @@ class Sinhvien:
 	def getKhoa(self):        
         	return self.Khoa
 
-	def inra(self):
+	def toString(self):
 		print ("ten:"+self.Ten)
 		print ("nam:"+self.Namsinh)
 		print ("khoa:"+self.Khoa)
 
-sv1=Sinhvien("ngan","10","10")
-sv1.inra()
+
